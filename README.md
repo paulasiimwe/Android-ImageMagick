@@ -36,12 +36,6 @@ If you want to rebuild with your own toolchain/compilers and what not or even ma
 4.  These .so files were generated using NDK r9d.
 
 
-ISSUES:
-If you'd like to contibute i'd look forward to the following improvements:
-
-1.  sigsegv Signal 11 Crash when performing some operations like converting to pdf,svg,eps.
-2.  Obviously code wasn't meant to run on Android devices so expect some unexpected crashing due to device resource limitations
-3.  I'm not so good at Android NDK, im sure the experts have noticed some faults with my Android.mk file, but hey I compiled it :-)
 
 Well, there you have it.
 If it works for you don't forget to star.
