@@ -17,7 +17,7 @@ To see all features and learn how to use them please check out http://www.jmagic
 
 
 
-###USAGE:
+USAGE:
 For quick ImageMagick Usage in your android app, .....the following instructions are based on none-gradle build
 
 1.  Simply copy the "libs" folder to your project folder
@@ -27,7 +27,7 @@ For quick ImageMagick Usage in your android app, .....the following instructions
 5.  In the "jni" folder create an "Application.mk" file where you put "APP_ABI := <your_target_CPU_architecture>"" , this allows Google Play to know what CPU that particular APK targets
 6.  Your basically done at this point, you can look at "AndroidMagickActivity.java" for basic Imagemagick usage you can copy to your own Activity.
 
-###REBUILD:
+REBUILD:
 If you want to rebuild with your own toolchain/compilers and what not or even maybe add other libraries e.g "Ghostscript" to support for PDF.
 
 1.  Naviagate to "jni" and edit the "android.mk" file accordingly
@@ -36,7 +36,7 @@ If you want to rebuild with your own toolchain/compilers and what not or even ma
 4.  These .so files were generated using NDK r9d.
 
 
-###ISSUES:
+ISSUES:
 If you'd like to contibute i'd look forward to the following improvements:
 
 1.  sigsegv Signal 11 Crash when performing some operations like converting to pdf,svg,eps.
@@ -46,7 +46,7 @@ If you'd like to contibute i'd look forward to the following improvements:
 Well, there you have it.
 If it works for you don't forget to star.
 
-###Credits
+Credits
 Credit to the following repositories for their components used to help me build this
 
 1.  https://github.com/lilac/Android-ImageMagick
@@ -54,7 +54,7 @@ Credit to the following repositories for their components used to help me build 
 3.  https://github.com/hagish/love-native-android
 
 
-###DISCLAIMER
+DISCLAIMER
 I'm not an expert on ImageMagick or graphics processing for that matter, more so on mobile devices, I simply built this repo for some college project at the time through alot of trial and Error.
 For what it's worth, this was built on Windows 8.1 x64, Lenovo W540, using Cygwin 64bit with Android NDK, Revision 10e (May 2015).
 Please note that there are no specific differences between the code used to build the 32bit .so files and those of 64bit. 
