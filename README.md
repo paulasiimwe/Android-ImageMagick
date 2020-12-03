@@ -1,7 +1,5 @@
 ANDROID-IMAGEMAGICK
 
-I had originally archieved this repo. It is mostly outdated, but it appears no one is making their ImageMagick android ports open source so I've restored this one. 
-
 INTRODUCTION
 This Is a free to use,change and reproduce multi CPU-architecture port of ImageMagick on Android Platform, this repo provides you with the ".so" files necessary to perform android native processing using the Image Magick library version 6.7.3-0 on Android devices with Armeabi-v8a_64, Mips_64, x86_64, Armeabi, Armeabi-v7a, Intel x86 or Mips processor CPUs/ABIs.
 
